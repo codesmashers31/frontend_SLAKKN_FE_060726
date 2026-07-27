@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form & Tables</title>
+</head>
+<body>
+    <section>
+        <div>
+            <form method="post" enctype="multipart/form-data">
+                <label for="username">Enter the Name</label>
+                <input type="text" id="username" required>
+                <label for="useremail">Enter the Email</label>
+                <input type="email"  id="useremail" required>
+                <label for="userpassword">Enter the Password</label>
+                <input type="password"  id="userpassword" required />
+                <label for="usermobile">Enter Your Mobile</label>
+                <input type="tel"  id="usermobile" minlength="10" maxlength="10" required>
+                <label for="userage">Enter Your Age</label>
+                <input type="number"  id="userage" required>
+                <label for="usergender">Enter Your Gender</label>
+                <input type="radio" name="gender" id="usergender">Mela
+                <input type="radio" name="gender" id="usergender">Female
+                <label for="userskills">Enter the Skills</label>
+                <input type="checkbox" name="skills" id="userskills">HTML
+                <input type="checkbox" name="skills" id="userskills">CSS
+                <input type="checkbox" name="skills" id="userskills">JS
+                <input type="checkbox" name="skills" id="userskills">REACT
+                <label for="userCourse"></label>
+                <select  id="userCourse" required>
+                    <option value="" selected disabled >Select One...</option>
+                    <option value="html">HTML Batch 1</option>
+                    <option value="html">CSS Batch 1</option>
+                    <option value="html">JS Batch 1</option>
+                </select>
+                <label for="details">Details</label>
+                <textarea id="details"></textarea>
+                <label for="userimage">Select Image</label>
+                <input type="file"  id="userimage">
+                <input type="submit" value="Register">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
