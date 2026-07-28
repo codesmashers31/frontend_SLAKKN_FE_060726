@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+/* .parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: firebrick;
+} */
+
+.box {
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+    border: solid 1px red;
+    margin: 50px;
+    width: 300px;
+    height: 300px;
+    overflow:hidden;
+}
+
+.box > h1 {
+    font-size: smaller;
+    padding: 30px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
