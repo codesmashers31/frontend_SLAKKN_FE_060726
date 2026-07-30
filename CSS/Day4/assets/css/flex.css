@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+
+.parent{
+
+    background-color: rgb(8, 223, 202);
+    color: aliceblue;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    height: 500px;
+    
+
+}
+
+.child{
+    background-color: aliceblue;
+    color: black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.parentone{
+    background-color: antiquewhite;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

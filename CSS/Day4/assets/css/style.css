@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.box{
+    background-color: black;
+    color: white;
+    height: 300px;
+    padding: 20px;
+}
+
+
+.child{
+    background-color: aqua;
+    padding: 10px;
+    color: black;
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+}
+
+
+.boxone {
+
+ background-color: aquamarine;
+ padding: 20px;
+ text-align: center;
+ font-size: larger;
+ display: inline;
+ width: 20px;
+
+}
+
+p{
+    display: inline;
+}
+
+.boxthree{
+    background-color: beige;
+    padding: 20px;
+    border: 1px solid blue;
+    display: none;
+}
+
+.boxfour{
+    background-color: blueviolet;
+    padding: 20px;
+    border: 3px solid black;
+}
