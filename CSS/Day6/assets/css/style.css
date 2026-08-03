@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.box{
+    background-color: aquamarine;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    width: 100vw;
+    height: 50vh;
+    font-size: 3rem;
+    
+}
+
+.box > p{
+
+ width: 80px;
+
+ background-color: black;
+ color: white;
+ font-size: 5em;
+ /* 16 * 2 */
+
+}
+
+

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.parent{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 10%;
+    width: 100vw;
+   
+}
+
+.para {
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 30px;
+}
+
+
+
+
+
+
+
+
