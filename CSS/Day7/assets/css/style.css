@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   background-color: bisque;
+   padding: 20px;
+   gap:30px;
+   height: 100vh;
+
+
+}
+
+
+.box {
+ 
+
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+
+}
