@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.box{
+
+    background-color: antiquewhite;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+
+}
+
+.box:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.elements{
+    background-color: aqua;
+    color: blue;
+    padding: 30px;
+}
+
+.elements::first-line   {
+    
+    content: "This is React process";
+    background-color: red;
+    color: white;
+    padding: 10px;
+
+}

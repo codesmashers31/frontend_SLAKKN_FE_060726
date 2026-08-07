@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    padding: 20px;
+    background-color: beige;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.child {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: 300px;
+
+}
+
+
+@media (max-width:768px) {
+
+
+    .container{
+        background-color: black;
+        display:flex;
+        flex-direction: column;
+        height: 60vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+
+@media (max-width:578px) {
+
+      .container{
+        height: 100vh;
+        background-color: rgba(248, 49, 49, 0.721);
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+
+
+.containergrid{
+    background-color: bisque;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    place-items: center;
+}
+
+
+
+@media (max-width:768px) {
+
+
+    .containergrid{
+        background-color: black;
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+
+}
+
+
+
+@media (max-width:578px) {
+
+     .containergrid{
+        background-color: black;
+        display:grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+}
+
+
+
+
+p{
+    background-color: rgb(126, 90, 42);
+    padding: 20px;
+}
+
+.para  {
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+#paraid{
+    background-color: beige; 
+    color: black;
+    padding: 20px;
+}
+

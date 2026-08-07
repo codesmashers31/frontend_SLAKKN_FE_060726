@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.box {
+
+   background-color: antiquewhite;
+   color: black;
+   padding: 20px;
+   margin: 10px;
+   width: 300px;
+   height: 200px;
+
+}
+
+
+.box:hover {
+    background-color: rgb(8, 119, 215);
+    transition: all 2s ease-in-out;
+}
+
+
+.boxone{
+
+   background-color: rgb(253, 186, 98);
+   color: black;
+   padding: 20px;
+   margin: 10px;
+   width: 300px;
+   height: 200px;
+
+
+}
+
+
+.boxone:hover {
+    transition: all 2s ease;
+    transform: skewY(20deg);
+}

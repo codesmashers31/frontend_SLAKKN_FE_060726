@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: "Decathlon VF", Inter, "Inter Fallback", sans-serif;
+}
+
+
+
+
+.navbar{
+    padding: 10px;
+   
+    display: flex;
+   
+    align-items: center;
+    gap: 10px;
+   
+}
+
+.logo{
+    
+    margin-left: 50px;
+}
+
+.search{
+    padding: 12px;
+}
+
+.search > input {
+
+    background-color: rgba(234, 232, 232, 0.57);
+    width: 800px;
+    padding: 17px;
+    border-radius: 30px;
+    border: none;
+    color: black;
+}
+
+.link {
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+    
+    
+}
+
+.link >  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: column;
+    text-decoration: none;
+    
+    color: rgba(0, 0, 0, 0.819);
+    font-weight: 100;
+    font-size: 12px;
+}
+
+
+.banner{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerimg{
+    padding: 10px;
+}
+
+.bannerimg > img {
+    width: 1400px;
+    border-radius: 20px;
+    
+}
+
+.cards{
+    
+   display: flex;
+   justify-content: center;
+  gap: 10px;
+}
+
+
+.cards > img{
+
+    width: 160px;
+    
+    margin-left: 10px;
+    border-radius: 20px;
+
+}
+
+
+.ads {
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ads > div > img {
+    width: 1400px;
+}
