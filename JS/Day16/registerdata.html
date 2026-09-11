@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+
+    <input type="text" id="username">
+     <input type="text" id="userage">
+      <input type="text" id="usermobile">
+      <button id="btn">Regsiter</button>
+      
+      <div id="show">
+
+      </div>
+
+
+      <script>
+        
+        const  btn = document.querySelector("#btn")
+         
+         const show = document.getElementById("show")
+        show.innerHTML = ""
+        btn.addEventListener("click",()=>{
+           
+            const username = document.getElementById("username").value
+        const userage = document.getElementById("userage").value
+        const usermobile = document.getElementById("usermobile").value
+
+            const savedData = JSON.parse(localStorage.getItem("registernums")) || []
+
+            //console.log('savedData',savedData);
+            
+            const users = {username,userage,usermobile}
+            savedData.push(users)
+
+            localStorage.setItem("registernums",JSON.stringify(savedData))
+            
+            
+            savedData.forEach(element => { 
+
+               show.innerHTML += ` <p>${element.username} </p>`
+                
+            });
+
+
+
+        })
+
+
+      </script>
+    
+</body>
+</html>
