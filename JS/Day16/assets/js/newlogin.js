@@ -26,6 +26,8 @@ loginBtn.addEventListener("click",(e)=>{
 
      if(checkemail_password){
 
+          localStorage.setItem("isActive",JSON.stringify(checkemail_password))
+
         window.location.href = "dashboard.html"
 
      }else{

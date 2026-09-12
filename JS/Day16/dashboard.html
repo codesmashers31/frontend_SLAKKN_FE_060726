@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="box">
+      
+    </div>
+
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded",()=>{
+
+
+        const getData = JSON.parse(localStorage.getItem("isActive"))
+
+        if(!getData) {
+
+    alert("Your Not a Valid User please login")
+    window.location.href = "login.html"
+    return
+}
+
+        const box = document.querySelector(".box")
+
+
+        box.innerHTML = `<p>${getData.name}</p>
+        <p>${getData.email}</p>`
+
+
+    
+
+    })
+</script>
+
+
+</body>
+</html>
