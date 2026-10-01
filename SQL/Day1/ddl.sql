@@ -14,6 +14,7 @@ userdepartment varchar(20),
 userjoindata date,
 userrole varchar(20) default "Admin" 
 
+
 );
 
 ALTER TABLE emptable ADD userage varchar(20);
@@ -55,3 +56,9 @@ DROP TABLE emptable;
 -- comment table tablename command (rename) colunm onldname to newname; 
 
 -- table create - create table tablename (column_name datatypes constirnes  autoincrment); 
+
+
+
+
+
+
